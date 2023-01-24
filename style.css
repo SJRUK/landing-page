@@ -5,9 +5,9 @@ body {
     max-width: 1500px;
 }
 
-.container-one ,.text-and-image, .container-two {
+.container-one ,.text-and-image, .container-two, .container-three {
    padding: 10px 100px;
-    
+   
 }
 
 .container-one {
@@ -61,6 +61,7 @@ a {
 .image {
     width: 400px;
     height: auto;
+    padding: 50px;
 }
 
 p {
@@ -71,6 +72,7 @@ p {
 .hero-and-button {
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .button {
@@ -87,7 +89,8 @@ p {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    
+    
   
 }
 
@@ -96,8 +99,60 @@ p {
     font-weight: 800;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 .boxes {
     display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.pic {
+    width: 250px; 
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.box-text {
+    display: flex;
+    width: 250px;
+    padding-bottom: 50px;
+}
+
+.container-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    width: 800px;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;    
+}
+
+.quote-by {
+    margin-left: 600px;
+    color: #1f2937;    
+    font-size: 24px;
+    font-weight: bold;
 }
