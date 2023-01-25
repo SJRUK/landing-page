@@ -5,7 +5,7 @@ body {
     max-width: 1500px;
 }
 
-.container-one ,.text-and-image, .container-two, .container-three {
+.container-one ,.text-and-image, .container-two, .container-three, .container-four {
    padding: 10px 100px;
    
 }
@@ -75,23 +75,22 @@ p {
     padding: 50px;
 }
 
-.button {
+.button, .sign-up-button {
     width:100px;
+    height: fit-content;
     background-color: #3882F6;
     color: white;
     border-radius: 10px;
     padding: 5px;
     font-weight: bold;
-    border: 0;
+    
 }
 
 .container-two {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    
-    
-  
+      
 }
 
 .random-info {
@@ -155,4 +154,56 @@ p {
     color: #1f2937;    
     font-size: 24px;
     font-weight: bold;
+}
+
+.container-four{
+    background-color: #F9FAF8;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 100px;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.sign-up-text{
+    color: #F9FAF8;
+}
+
+.sign-up-button{
+    border-width: 3px;
+    border-color: #F9FAF8;
+    border-style: solid;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 30px;
 }
